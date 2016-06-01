@@ -1,0 +1,8 @@
+C:\Users\ijoran\Downloads\patrones\consumir\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\ijoran\Downloads\patrones\consumir\bin\Newtonsoft.Json.dll
+C:\Users\ijoran\Downloads\patrones\consumir\bin\Microsoft.Web.Infrastructure.xml
+C:\Users\ijoran\Downloads\patrones\consumir\bin\PF_SOA.dll.config
+C:\Users\ijoran\Downloads\patrones\consumir\bin\PF_SOA.dll
+C:\Users\ijoran\Downloads\patrones\consumir\bin\PF_SOA.pdb
+C:\Users\ijoran\Downloads\patrones\consumir\obj\Debug\PF_SOA.dll
+C:\Users\ijoran\Downloads\patrones\consumir\obj\Debug\PF_SOA.pdb
