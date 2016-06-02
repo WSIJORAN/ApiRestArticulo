@@ -107,7 +107,7 @@ function CreateArticulo(articulo) {
             201: function () {
                 GetAll();
                 ClearForm();
-                alert('Articulo con id: ' + articulo + ' se actualizo');
+                alert('Articulo con id: ' + idArticulo + ' se actualizo');
             },
             400: function () {
                 ClearForm();
