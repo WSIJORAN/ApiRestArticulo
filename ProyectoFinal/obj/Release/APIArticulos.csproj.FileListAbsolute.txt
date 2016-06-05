@@ -1,0 +1,8 @@
+C:\Users\ijoran\Source\Repos\ApiRestArticulo\ProyectoFinal\bin\PF_SOA.dll.config
+C:\Users\ijoran\Source\Repos\ApiRestArticulo\ProyectoFinal\bin\PF_SOA.dll
+C:\Users\ijoran\Source\Repos\ApiRestArticulo\ProyectoFinal\bin\PF_SOA.pdb
+C:\Users\ijoran\Source\Repos\ApiRestArticulo\ProyectoFinal\bin\System.Web.Mvc.dll
+C:\Users\ijoran\Source\Repos\ApiRestArticulo\ProyectoFinal\bin\Microsoft.Web.Infrastructure.xml
+C:\Users\ijoran\Source\Repos\ApiRestArticulo\ProyectoFinal\obj\Release\APIArticulos.csprojResolveAssemblyReference.cache
+C:\Users\ijoran\Source\Repos\ApiRestArticulo\ProyectoFinal\obj\Release\PF_SOA.dll
+C:\Users\ijoran\Source\Repos\ApiRestArticulo\ProyectoFinal\obj\Release\PF_SOA.pdb
