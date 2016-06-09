@@ -17,38 +17,38 @@ namespace PF_SOA.Controllers
         private ArticuloDBContext db = new ArticuloDBContext();
 
         // GET api/Articulo
-        public IEnumerable<Articulo> GetPerson()
+        public IEnumerable<Articulo> GetArticulo()
         {
             var data = db.Articulo.AsEnumerable();
             return data;
         }
 
         // GET api/Articulo/5
-        public Articulo GetPerson(Int32 id)
+        public Articulo GetArticulo(Int32 id)
         {
-            Articulo person = db.Articulo.Find(id);
-            if (person == null)
+            Articulo articulo = db.Articulo.Find(id);
+            if (articulo == null)
             {
                throw new HttpResponseException(Request.CreateResponse(HttpStatusCode.NotFound));
             }
 
-            return person;
+            return articulo;
         }
 
         // PUT api/Articulo/5
-        public HttpResponseMessage PutPerson(Int32 id, Articulo person)
+        public HttpResponseMessage PutArticulo(Int32 id, Articulo articulo)
         {
             if (!ModelState.IsValid)
             {
                 return Request.CreateErrorResponse(HttpStatusCode.BadRequest, ModelState);
             }
 
-            if (id != person.Id)
+            if (id != articulo.Id)
             {
                 return Request.CreateResponse(HttpStatusCode.BadRequest);
             }
 
-            db.Entry(person).State = EntityState.Modified;
+            db.Entry(articulo).State = EntityState.Modified;
 
             try
             {
@@ -63,15 +63,15 @@ namespace PF_SOA.Controllers
         }
 
         // POST api/Articulo
-        public HttpResponseMessage PostPerson(Articulo person)
+        public HttpResponseMessage PostArticulo(Articulo articulo)
         {
             if (ModelState.IsValid)
             {
-                db.Articulo.Add(person);
+                db.Articulo.Add(articulo);
                 db.SaveChanges();
 
-                HttpResponseMessage response = Request.CreateResponse(HttpStatusCode.Created, person);
-                response.Headers.Location = new Uri(Url.Link("DefaultApi", new { id = person.Id }));
+                HttpResponseMessage response = Request.CreateResponse(HttpStatusCode.Created, articulo);
+                response.Headers.Location = new Uri(Url.Link("DefaultApi", new { id = articulo.Id }));
                 return response;
             }
             else
@@ -81,7 +81,7 @@ namespace PF_SOA.Controllers
         }
 
         // DELETE api/Articulo/5
-        public HttpResponseMessage DeletePerson(Int32 id)
+        public HttpResponseMessage DeleteArticulo(Int32 id)
         {
             Articulo articulo = db.Articulo.Find(id);
             if (articulo == null)
